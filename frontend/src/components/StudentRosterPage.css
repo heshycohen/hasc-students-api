@@ -1,0 +1,126 @@
+/* Student Roster print layout - exact match to PDF format */
+
+.roster-print-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* One printed page per class */
+.roster-section {
+  margin-bottom: 24px;
+  page-break-after: always;
+  break-after: page;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.roster-section:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+
+/* Header: thick top and bottom border; title left, "Printed" + date small on right */
+.roster-header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  margin-bottom: 12px;
+}
+
+.roster-header-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.roster-header-printed {
+  font-size: 9px;
+  font-weight: normal;
+  text-align: right;
+}
+
+/* Class section: 2 columns – left = CLASS NUMBER / CLASS SIZE, right = Teacher / ASSISTANT 1 / ASSISTANT 2 */
+.roster-class-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #000;
+  font-size: 12px;
+}
+
+.roster-class-left,
+.roster-class-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.roster-class-row {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.roster-class-label {
+  margin-right: 6px;
+}
+
+.roster-class-value {
+  font-weight: normal;
+}
+
+.roster-teacher-label {
+  font-weight: 700;
+}
+
+/* Table - same as PDF */
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.roster-table th,
+.roster-table td {
+  padding: 3px 6px;
+  text-align: left;
+}
+
+.roster-table th {
+  font-weight: 600;
+}
+
+/* Footer: Page 1 of 15	HASC Rockland */
+.roster-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #333;
+  margin-top: 4px;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+  .roster-print-container {
+    padding: 0;
+  }
+  /* One page per class: force a new page after each section */
+  .roster-section {
+    page-break-after: always;
+    break-after: page;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .roster-section:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+}

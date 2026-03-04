@@ -1,0 +1,2 @@
+# Optional: Access database import (needs C++ Build Tools on Windows with Python 3.14, or use Python 3.11/3.12)
+pyodbc>=5.0.1

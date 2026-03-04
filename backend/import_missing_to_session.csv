@@ -1,0 +1,75 @@
+action,last_name,first_name,raw_dob,dob,inferred_service_type,row_index,student_id,student_id_raw
+linked_elsewhere,Shapiro,Yitzchok,1/4/2021 0:00:00,2021-01-04,related_service,0,2643,000920440
+linked_elsewhere,Lipman,Ariella,1/19/2022 0:00:00,2022-01-19,unknown,7,2644,000926526
+linked_elsewhere,Hager,Mordechai,1/11/2021 0:00:00,2021-01-11,seit,13,2645,000921988
+linked_elsewhere,Hager,Yisroel,1/11/2021 0:00:00,2021-01-11,seit,14,2646,000921989
+linked_elsewhere,Steinmetz,Yossi,12/7/2020 0:00:00,2020-12-07,center_based,22,2647,000919100
+skipped_missing_identity,floater,teacher,,,center_based,24,,
+skipped_missing_identity,floater,AM,,,center_based,25,,
+skipped_missing_identity,floater,PM,,,center_based,26,,
+skipped_missing_identity,floater,full til1/12,,,center_based,27,,
+skipped_missing_identity,floater,AM,,,center_based,28,,
+linked_elsewhere,Schuster,Sol,1/9/2021 0:00:00,2021-01-09,unknown,29,2648,000919454
+linked_elsewhere,Neumann,Jacob,12/20/2020 0:00:00,2020-12-20,unknown,31,2649,000921138
+linked_elsewhere,Friedman,Noam,12/13/2020 0:00:00,2020-12-13,related_service,32,2650,000919538
+linked_elsewhere,Kraines,Elisheva,1/20/2021 0:00:00,2021-01-20,related_service,33,2651,000921868
+linked_elsewhere,Kraines,Bracha,1/20/2021 0:00:00,2021-01-20,related_service,35,2652,000921867
+linked_elsewhere,Dembinsky,Evan,1/25/2021 0:00:00,2021-01-25,related_service,37,2653,000922331
+linked_elsewhere,Weberman,Ben,1/27/2021 0:00:00,2021-01-27,unknown,38,2654,000922269
+linked_elsewhere,Schwartz,Shimon,4/27/2021 0:00:00,2021-04-27,unknown,41,2655,000922425
+linked_elsewhere,Heller,Yehuda,3/1/2021 0:00:00,2021-03-01,seit,47,2656,000922682
+linked_elsewhere,Zidele,Dovid,2/28/2021 0:00:00,2021-02-28,center_based,50,2657,000922492
+linked_elsewhere,Spitzer,Moshe,2/9/2021 0:00:00,2021-02-09,related_service,51,2658,000922275
+linked_elsewhere,Kaufman,Rochel,5/19/2021 0:00:00,2021-05-19,related_service,52,2659,000922297
+linked_elsewhere,Koval,Moshe,6/24/2021 0:00:00,2021-06-24,related_service,53,2660,000923109
+linked_elsewhere,Steiner,Yidis,8/17/2021 0:00:00,2021-08-17,related_service,55,2661,000922911
+linked_elsewhere,Sherman,Lily,6/2/2021 0:00:00,2021-06-02,related_service,57,2662,000922947
+linked_elsewhere,Edelstein,Meir,6/3/2021 0:00:00,2021-06-03,related_service,59,2663,000922953
+linked_elsewhere,Eisenbach,Shaindy,3/16/2021 0:00:00,2021-03-16,related_service,60,2664,000922653
+linked_elsewhere,Greenbaum,Tehilla,2/25/2021 0:00:00,2021-02-25,related_service,61,2665,000922265
+linked_elsewhere,Goldstein,Daniel,5/23/2021 0:00:00,2021-05-23,unknown,62,2666,000923158
+linked_elsewhere,Kornhauser,Goldy,1/22/2021 0:00:00,2021-01-22,seit,68,2667,000922392
+linked_elsewhere,Kugler,David,7/9/2021 0:00:00,2021-07-09,related_service,70,2668,000923337
+linked_elsewhere,Leser,Shaindel,1/25/2021 0:00:00,2021-01-25,unknown,71,2669,000922349
+linked_elsewhere,Wasserman,Benjamin,6/2/2021 0:00:00,2021-06-02,unknown,74,2670,000922605
+linked_elsewhere,Hollander,Esther,2/3/2021 0:00:00,2021-02-03,seit,76,2671,000922254
+linked_elsewhere,Feldman,Esty,8/21/2021 0:00:00,2021-08-21,unknown,79,2672,000923428
+linked_elsewhere,Goldbrenner,Shlomo,8/16/2021 0:00:00,2021-08-16,seit,81,2673,000923565
+linked_elsewhere,Ortner,Tzvi,5/14/2021 0:00:00,2021-05-14,unknown,83,2674,000922757
+linked_elsewhere,Neiman,Zack,6/20/2021 0:00:00,2021-06-20,seit,85,2675,000923097
+linked_elsewhere,Schabes,Yaakov,9/24/2021 0:00:00,2021-09-24,seit,90,2676,9010721
+linked_elsewhere,Lerman,Andrew,1/19/2022 0:00:00,2022-01-19,unknown,96,2677,
+linked_elsewhere,Samet,Leah,2/16/2021 0:00:00,2021-02-16,unknown,103,2678,52677
+linked_elsewhere,Stiefel,Dovber,7/13/2021 0:00:00,2021-07-13,related_service,106,2679,000923117
+linked_elsewhere,Zajac,Mendel,4/16/2021 0:00:00,2021-04-16,unknown,108,2680,000922591
+linked_elsewhere,Perl,Daniel,7/30/2021 0:00:00,2021-07-30,seit,110,2681,000923591
+linked_elsewhere,Grunberger,Esther,6/14/2021 0:00:00,2021-06-14,unknown,111,2682,000923548
+linked_elsewhere,Braun,Yides,3/13/2021 0:00:00,2021-03-13,unknown,112,2683,000922846
+linked_elsewhere,Eisenberger,Trany,2/21/2021 0:00:00,2021-02-21,unknown,113,2684,000924594
+skipped_missing_identity,floater,PM,,,center_based,114,,
+skipped_missing_identity,floater,AM,,,center_based,115,,
+skipped_missing_identity,floater,PM,,,center_based,116,,
+skipped_missing_identity,floater,full,,,center_based,117,,
+linked_elsewhere,Mushinsky,Zev,6/5/2021 0:00:00,2021-06-05,related_service,122,2685,9002411
+linked_elsewhere,Safran,Brian,6/1/2021 0:00:00,2021-06-01,related_service,123,2686,000922689
+linked_elsewhere,Kohl,Zissy,4/22/2021 0:00:00,2021-04-22,unknown,124,2687,000924855
+linked_elsewhere,Bayer,Ruchy,10/18/2021 0:00:00,2021-10-18,related_service,126,2688,000925623
+linked_elsewhere,Rand,Nechama,1/27/2022 0:00:00,2022-01-27,unknown,127,2689,000925443
+linked_elsewhere,Herskovic,Sarah,3/1/2022 0:00:00,2022-03-01,seit,138,2690,000926986
+linked_elsewhere,Greenbaum,Reuven,3/30/2021 0:00:00,2021-03-30,related_service,140,2691,000922634
+linked_elsewhere,Kohn,Avraham,3/16/2022 0:00:00,2022-03-16,related_service,146,2692,999999440
+linked_elsewhere,Mandelbaum,Hennie,9/17/2021 0:00:00,2021-09-17,related_service,175,2693,999999361
+skipped_missing_identity,Grunbaum,Shaindy,,,center_based,237,,
+skipped_missing_identity,Hess,Yaakov,,,center_based,247,,
+skipped_missing_identity,floater,M/W/F,,,center_based,248,,
+skipped_missing_identity,floater,sub as needed,,,center_based,249,,
+skipped_missing_identity,floater,full,,,center_based,250,,
+skipped_missing_identity,Grunwald,Dov,,,unknown,265,,
+skipped_missing_identity,Silber,Chany,,,center_based,275,,
+skipped_missing_identity,floater,sub as needed,,,center_based,286,,
+skipped_missing_identity,floater,full,,,center_based,287,,
+skipped_missing_identity,floater,T/Th,,,center_based,292,,
+skipped_missing_identity,floater,6hrs/wk,,,center_based,293,,
+skipped_missing_identity,floater,2.5hrs/wk,,,center_based,294,,
+skipped_missing_identity,floater,10.5 hr/wk,,,center_based,295,,
+skipped_missing_identity,floater,teacher AM,,,center_based,296,,

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Signed in – Rock Access</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.25rem; }
+    p { color: #444; }
+    a { color: #1976d2; }
+    .actions { margin-top: 1.5rem; }
+    .actions a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>You're signed in</h1>
+  <p>Signed in as <strong>{{ user.email }}</strong>.</p>
+  <div class="actions">
+    <a href="http://localhost:3000/">Open app (School Year Management)</a>
+    <br><br>
+    <a href="{% url 'account_logout' %}">Sign out</a>
+  </div>
+</body>
+</html>

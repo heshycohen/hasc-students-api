@@ -1,0 +1,17 @@
+# Copy to terraform.tfvars and fill in (do not commit terraform.tfvars)
+# Required:
+location               = "eastus"
+project_name           = "students-hasc"
+environment            = "prod"
+frontend_fqdn          = "students.hasc.net"
+api_fqdn               = "students-api.hasc.net"
+postgres_admin_user     = "psqladmin"
+postgres_admin_password = "CHANGE_ME"
+
+# Optional: store Entra secrets in Key Vault via Terraform
+# azure_ad_tenant_id     = ""
+# azure_ad_client_id      = ""
+# azure_ad_client_secret  = ""
+
+# After creating Static Web App, set frontend origin:
+# frontend_origin_hostname = "xxx.azurestaticapps.net"
